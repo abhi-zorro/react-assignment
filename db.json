@@ -1,0 +1,225 @@
+{
+  "books": [
+    {
+      "id": 0,
+      "name": "Bring Your Human to Work",
+      "currentlyReading": false,
+      "finished": true,
+      "bookState": "Read again",
+      "url": "1.png",
+      "timeRead": "13-minute read",
+      "authorName": "Erica Keswin",
+      "desc": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "for": "One of the key learnings for entrepreneurs is the understanding of the reality about success and how extraordinary opportunities, instead of talent, pave the way to excellence.",
+      "about_author": "From Jim Collins, the most influential business thinker of our era, comes an ambitious upgrade of his classic, Beyond Entrepreneurship, that includes all-new findings and world-changing insights.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 1,
+      "name": "Employee to Entrepreneur",
+      "currentlyReading": false,
+      "finished": true,
+      "bookState": "Read again",
+      "url": "11.png",
+      "timeRead": "15-minute read",
+      "authorName": "Steve Glaveski",
+      "desc": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "for": "One of the key learnings for entrepreneurs is the understanding of the reality about success and how extraordinary opportunities, instead of talent, pave the way to excellence.",
+      "about_author": "From Jim Collins, the most influential business thinker of our era, comes an ambitious upgrade of his classic, Beyond Entrepreneurship, that includes all-new findings and world-changing insights.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 2,
+      "name": "Doesn't Hurt to Ask",
+      "currentlyReading": false,
+      "finished": true,
+      "bookState": "Read again",
+      "url": "3.png",
+      "authorName": "Trey Gowdy",
+      "timeRead": "13-minute read",
+      "desc": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "for": "One of the key learnings for entrepreneurs is the understanding of the reality about success and how extraordinary opportunities, instead of talent, pave the way to excellence.",
+      "about_author": "From Jim Collins, the most influential business thinker of our era, comes an ambitious upgrade of his classic, Beyond Entrepreneurship, that includes all-new findings and world-changing insights.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 3,
+      "name": "The Fate of Food",
+      "currentlyReading": true,
+      "finished": false,
+      "bookState": "Finished",
+      "url": "4.png",
+      "timeRead": "13-minute read",
+      "authorName": "Amanda Little",
+      "desc": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "for": "One of the key learnings for entrepreneurs is the understanding of the reality about success and how extraordinary opportunities, instead of talent, pave the way to excellence.",
+      "about_author": "From Jim Collins, the most influential business thinker of our era, comes an ambitious upgrade of his classic, Beyond Entrepreneurship, that includes all-new findings and world-changing insights.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 4,
+      "name": "Lives of the Stoics",
+      "currentlyReading": false,
+      "finished": true,
+      "bookState": "Read again",
+      "url": "5.png",
+      "timeRead": "13-minute read",
+      "authorName": "Ryan Holiday, Stephen Hansel",
+      "desc": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "for": "One of the key learnings for entrepreneurs is the understanding of the reality about success and how extraordinary opportunities, instead of talent, pave the way to excellence.",
+      "about_author": "From Jim Collins, the most influential business thinker of our era, comes an ambitious upgrade of his classic, Beyond Entrepreneurship, that includes all-new findings and world-changing insights.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 5,
+      "name": "Loving Your Business",
+      "currentlyReading": false,
+      "finished": true,
+      "bookState": "Read again",
+      "url": "6.png",
+      "timeRead": "13-minute read",
+      "authorName": "Debbie King",
+      "desc": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "for": "One of the key learnings for entrepreneurs is the understanding of the reality about success and how extraordinary opportunities, instead of talent, pave the way to excellence.",
+      "about_author": "From Jim Collins, the most influential business thinker of our era, comes an ambitious upgrade of his classic, Beyond Entrepreneurship, that includes all-new findings and world-changing insights.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 6,
+      "name": "Beyond your Enterpreneurship",
+      "currentlyReading": false,
+      "finished": true,
+      "bookState": "Read again",
+      "url": "2.png",
+      "timeRead": "15-minute read",
+      "authorName": "Noreena Hertz",
+      "desc": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "for": "One of the key learnings for entrepreneurs is the understanding of the reality about success and how extraordinary opportunities, instead of talent, pave the way to excellence.",
+      "about_author": "From Jim Collins, the most influential business thinker of our era, comes an ambitious upgrade of his classic, Beyond Entrepreneurship, that includes all-new findings and world-changing insights.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 7,
+      "name": "Eat Better, Feel Better",
+      "currentlyReading": false,
+      "finished": true,
+      "bookState": "Read again",
+      "url": "8.png",
+      "timeRead": "13-minute read",
+      "authorName": "Giada De Laurentiis",
+      "desc": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "for": "One of the key learnings for entrepreneurs is the understanding of the reality about success and how extraordinary opportunities, instead of talent, pave the way to excellence.",
+      "about_author": "From Jim Collins, the most influential business thinker of our era, comes an ambitious upgrade of his classic, Beyond Entrepreneurship, that includes all-new findings and world-changing insights.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 8,
+      "name": "Dropshipping",
+      "currentlyReading": false,
+      "finished": true,
+      "bookState": "Read again",
+      "url": "9.png",
+      "timeRead": "15-minute read",
+      "authorName": "James Moore",
+      "desc": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "for": "One of the key learnings for entrepreneurs is the understanding of the reality about success and how extraordinary opportunities, instead of talent, pave the way to excellence.",
+      "about_author": "From Jim Collins, the most influential business thinker of our era, comes an ambitious upgrade of his classic, Beyond Entrepreneurship, that includes all-new findings and world-changing insights.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 9,
+      "name": "Being Boss",
+      "url": "10.png",
+      "currentlyReading": false,
+      "finished": true,
+      "bookState": "Read again",
+      "timeRead": "15-minute read",
+      "authorName": "Kathleen Shannon and Emily...",
+      "desc": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "for": "One of the key learnings for entrepreneurs is the understanding of the reality about success and how extraordinary opportunities, instead of talent, pave the way to excellence.",
+      "about_author": "From Jim Collins, the most influential business thinker of our era, comes an ambitious upgrade of his classic, Beyond Entrepreneurship, that includes all-new findings and world-changing insights.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 10,
+      "name": "The Lonely Century",
+      "currentlyReading": false,
+      "finished": true,
+      "bookState": "Read again",
+      "url": "7.png",
+      "timeRead": "13-minute read",
+      "authorName": "Jim Collins & Bill Lazier",
+      "desc": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "for": "One of the key learnings for entrepreneurs is the understanding of the reality about success and how extraordinary opportunities, instead of talent, pave the way to excellence.",
+      "about_author": "From Jim Collins, the most influential business thinker of our era, comes an ambitious upgrade of his classic, Beyond Entrepreneurship, that includes all-new findings and world-changing insights.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 11,
+      "name": "Employee to Entrepreneur",
+      "currentlyReading": true,
+      "finished": false,
+      "bookState": "Finished",
+      "url": "11.png",
+      "timeRead": "15-minute read",
+      "authorName": "Jim Collins & Bill Lazier",
+      "desc": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "for": "One of the key learnings for entrepreneurs is the understanding of the reality about success and how extraordinary opportunities, instead of talent, pave the way to excellence.",
+      "about_author": "From Jim Collins, the most influential business thinker of our era, comes an ambitious upgrade of his classic, Beyond Entrepreneurship, that includes all-new findings and world-changing insights.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    }
+  ],
+  "extra": [
+    {
+      "heading": "Trending blinks",
+      "books": [
+        {
+          "id": 0
+        },
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        }
+      ]
+    },
+    {
+      "heading": "Just added",
+      "books": [
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        }
+      ]
+    },
+    {
+      "heading": "Featured audio blinks",
+      "books": [
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        }
+      ]
+    }
+  ]
+}
