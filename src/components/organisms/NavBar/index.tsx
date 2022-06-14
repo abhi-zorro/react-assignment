@@ -12,7 +12,6 @@ import AvatarComp from "../../Atoms/Avatar";
 import { useAuth0 } from "@auth0/auth0-react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-import React from "react";
 
 const HeaderComponent = (props: any) => {
   const { loginWithRedirect, isAuthenticated, logout } = useAuth0();

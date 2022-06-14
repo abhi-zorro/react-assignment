@@ -1,8 +1,7 @@
-import { Container, Box } from "@mui/material";
+import { ThemeProvider, Container, Box } from "@mui/material";
 import Logo from "../../molecules/Logo";
 import url from "./blinkist_logo.png";
 import Typography from "../../Atoms/Typography";
-import { ThemeProvider } from "@mui/material";
 import theme from "../../Theme";
 
 const FooterComponent = () => {

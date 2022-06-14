@@ -8,7 +8,7 @@ import axios from "axios";
 import theme from "../../Theme/index";
 import ProgressBar from "../../Atoms/StatusBar";
 import { MoreHoriz } from "@mui/icons-material";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const CardStyles = {

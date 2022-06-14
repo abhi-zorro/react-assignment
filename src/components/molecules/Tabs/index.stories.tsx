@@ -1,6 +1,5 @@
 import Tabs from ".";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { text } from "node:stream/consumers";
 import { lightGreen } from "@mui/material/colors";
 const TabsComponent = {
   title: "components/Molecules/Tabs",
