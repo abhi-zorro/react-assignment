@@ -17,7 +17,6 @@ const BookDetails = () => {
   const [book, setBook] = useState<any>(null);
 
   const libraryStatusHandler = (
-    bookId: number,
     currentlyReading: boolean,
     finished: boolean,
     bookState: string
@@ -213,7 +212,7 @@ const BookDetails = () => {
                 variant="contained"
                 color="success"
                 onClick={(event) => {
-                  libraryStatusHandler(book.id, false, true, "Read again");
+                  libraryStatusHandler(false, true, "Read again");
                 }}
                 sx={{ margin: `0 ${theme.spacing(4)} 0 0`, fontFamily: "Cera" }}
               />
