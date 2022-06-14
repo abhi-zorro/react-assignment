@@ -67,15 +67,15 @@ const CardStyles = {
 };
 
 const BookCard = (props: any) => {
-  var bookId: number = props.bookId;
-  var bookName: string = props.bookName;
-  var authorName: string = props.authorName;
-  var timeRead: string = props.timeRead;
-  var url: string = props.url;
-  var bookStatus: boolean = props.inLibrary;
-  var currentlyReading: boolean = props.currentlyReading;
-  var progress: number = props.progress;
-  var bookState: string = props.bookState;
+  let bookId: number = props.bookId;
+  let bookName: string = props.bookName;
+  let authorName: string = props.authorName;
+  let timeRead: string = props.timeRead;
+  let url: string = props.url;
+  let bookStatus: boolean = props.inLibrary;
+  let currentlyReading: boolean = props.currentlyReading;
+  let progress: number = props.progress;
+  let bookState: string = props.bookState;
 
   const [hoverState, setHoverState] = useState(false);
 
