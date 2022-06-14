@@ -24,7 +24,7 @@ export const Secondary = () => (
 );
 export const Success = () => (
   <ThemeProvider theme={theme}>
-    <ButtonComponent variant="contained" color="primary">
+    <ButtonComponent variant="contained" color="success">
       Primary
     </ButtonComponent>
   </ThemeProvider>
