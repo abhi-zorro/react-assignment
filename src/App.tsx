@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from "react";
-import logo from "./logo.svg";
+import { useEffect, useState } from "react";
 import "./App.css";
-import url from "./Images/2.png";
-import temp from "./Images/2.png";
 import BookDetail from "./components/Pages/BookDetails";
 import Header from "./components/organisms/NavBar";
 import image from "./components/organisms/NavBar/blinkListLogo.png";
-import Card from "./components/organisms/BookCard";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MyLibrary from "./components/Pages/MyLibrary";
 import axios from "axios";
@@ -16,7 +12,6 @@ import Enterpreneur from "./components/Pages/Enterpreneurship";
 import Explorer from "./components/organisms/NavExplorer";
 import Blank from "./components/Atoms/Blank";
 import Home from "./components/Pages/Home";
-import { ExploreOffTwoTone } from "@mui/icons-material";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
