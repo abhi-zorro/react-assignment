@@ -28,13 +28,11 @@ function App() {
   const [blankStatus, setBlankStatus] = useState<boolean>(false);
 
   console.log("isAuthenticated: " + isAuthenticated);
-  useEffect(() => {});
 
   useEffect(() => {
-    // console.log("Inside useEffect");
     axios.get(`http://localhost:3000/books`).then((res) => {
-      const books = res.data;
-      setBooks(books);
+      const books1 = res.data;
+      setBooks(books1);
       const reading1 = books.filter(
         (book: { currentlyReading: boolean }) => book.currentlyReading === true
       );
