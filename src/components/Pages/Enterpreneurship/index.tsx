@@ -7,7 +7,7 @@ import Banner from "../../molecules/Banner";
 import Card from "../../organisms/BookCard";
 import theme from "../../Theme";
 
-const EntrepreneurComp = ({ books, extraData, ...props }: any) => {
+const EntrepreneurComp = ({ books, extraData }: any) => {
   console.log(extraData);
   const reading = books.filter((book: { currentlyReading: boolean }) => {
     return book.currentlyReading === true;

@@ -1,15 +1,10 @@
 import { ThemeProvider } from "@emotion/react";
-import { Box, Grid, Typography } from "@mui/material";
-import Container from "@mui/material/Container";
+import { Grid, Typography } from "@mui/material";
 import theme from "../../Theme";
 import Image from "../../Atoms/Image";
-import Button from "../../Atoms/Button";
 import url from "../../../Images/blinkListTemp.png";
-import { useAuth0 } from "@auth0/auth0-react";
 
 const HomePage = () => {
-  const { loginWithRedirect, isAuthenticated, logout } = useAuth0();
-
   return (
     <ThemeProvider theme={theme}>
       <Grid

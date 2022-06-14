@@ -2,7 +2,7 @@ import Logo from "../../molecules/Logo";
 import Icon from "../../Atoms/Icon";
 import { Box, Menu, MenuItem, Container, ThemeProvider } from "@mui/material";
 import Search from "@mui/icons-material/Search";
-import theme from "../../Theme";
+import Theme from "../../Theme";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "../../Atoms/Button";
@@ -17,14 +17,10 @@ import React from "react";
 const HeaderComponent = (props: any) => {
   const { loginWithRedirect, isAuthenticated, logout } = useAuth0();
 
-  const [anchorElNav, setAnchorElNav] = useState(null);
   const [anchorElUser, setAnchorElUser] = useState(null);
 
   const handleOpenUserMenu = (event: any) => {
     setAnchorElUser(event.currentTarget);
-  };
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
   };
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
@@ -35,7 +31,7 @@ const HeaderComponent = (props: any) => {
   console.log("isAuthenticated? " + isAuthenticated);
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={Theme}>
       <AppBar
         position="fixed"
         sx={{

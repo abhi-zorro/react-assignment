@@ -23,8 +23,6 @@ const MyLibrary = ({ reading, finished }: any) => {
     setCurrState(state);
   };
 
-  // const cardStateHandler = ()
-
   const cards = () => {
     if (reading.length === 0 && finished.length === 0) {
       return <CircularProgress data-testid="circular-progress" />;
@@ -32,7 +30,6 @@ const MyLibrary = ({ reading, finished }: any) => {
       if (currState === "reading") {
         if (reading.length > 0) {
           return reading.map((curr: any) => {
-            // let currData = books[Number.parseInt(curr.id)];
             return (
               <Card
                 bookId={curr.id}
@@ -58,7 +55,6 @@ const MyLibrary = ({ reading, finished }: any) => {
         }
       } else if (currState === "finished") {
         return finished.map((curr: any) => {
-          // let currData = books[Number.parseInt(curr.id)];
           return (
             <Card
               bookId={curr.id}

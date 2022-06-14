@@ -5,7 +5,7 @@ import Typography from "../../Atoms/Typography";
 import { ThemeProvider } from "@mui/material";
 import theme from "../../Theme";
 
-const FooterComponent = (props: any) => {
+const FooterComponent = () => {
   const data = [
     {
       heading: "Editorial",
@@ -58,7 +58,7 @@ const FooterComponent = (props: any) => {
             </Typography>
           </Box>
           <Box sx={{ display: "flex", justifyContent: "end" }}>
-            {data.map((curr, index) => {
+            {data.map((curr) => {
               return (
                 <Box
                   sx={{

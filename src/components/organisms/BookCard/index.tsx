@@ -72,13 +72,10 @@ const BookCard = (props: any) => {
   var authorName: string = props.authorName;
   var timeRead: string = props.timeRead;
   var url: string = props.url;
-  var width: number = props.width;
   var bookStatus: boolean = props.inLibrary;
   var currentlyReading: boolean = props.currentlyReading;
   var progress: number = props.progress;
   var bookState: string = props.bookState;
-
-  // const [bookState, setBookState] = useState<string>(props.bookState);
 
   const [hoverState, setHoverState] = useState(false);
 
@@ -87,14 +84,14 @@ const BookCard = (props: any) => {
   };
 
   const updateJsonData = (
-    currentlyReading: boolean,
+    currRead: boolean,
     finished: boolean,
-    bookState: string
+    bState: string
   ) => {
     axios.patch(`http://localhost:3000/books/${bookId}`, {
-      currentlyReading: currentlyReading,
+      currentlyReading: currRead,
       finished: finished,
-      bookState: bookState,
+      bookState: bState,
     });
   };
 
@@ -102,7 +99,6 @@ const BookCard = (props: any) => {
     <ThemeProvider theme={theme}>
       <Paper
         elevation={1}
-        // sx={{ width: `${width}px` }}
         style={CardStyles.parent}
         onMouseEnter={hoverStateHandler}
         onMouseLeave={hoverStateHandler}
@@ -165,8 +161,7 @@ const BookCard = (props: any) => {
           {bookStatus && bookState !== "" ? (
             <Box
               sx={{ cursor: `${hoverState ? "pointer" : ""}` }}
-              onClick={(e) => {
-                // handleChange(e, "New");
+              onClick={() => {
                 if (currentlyReading === true) {
                   updateJsonData(false, true, "Read again");
                 } else if (currentlyReading === false) {
@@ -196,7 +191,7 @@ const BookCard = (props: any) => {
                 paddingTop: "15px",
                 paddingBottom: "20px",
               }}
-              onClick={(event) => {
+              onClick={() => {
                 console.log("inside onclick: bookId" + props.bookId);
                 props.libraryHandler(props.cardId, true, false, "Finished");
               }}

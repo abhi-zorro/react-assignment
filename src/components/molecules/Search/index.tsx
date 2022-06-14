@@ -4,7 +4,6 @@ import { Close } from "@mui/icons-material";
 import { Box, List, ListItem } from "@mui/material";
 import { useState } from "react";
 import Typography from "../../Atoms/Typography";
-// import { Link } from "react-router-dom";
 import Icon from "../../Atoms/Icon";
 import { Link } from "react-router-dom";
 

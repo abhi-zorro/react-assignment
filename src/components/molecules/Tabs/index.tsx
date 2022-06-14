@@ -7,7 +7,7 @@ import tabstheme from "../../Theme";
 
 export default function TabsWrappedLabel({ tabData, ...props }: any) {
   const [value, setValue] = React.useState(tabData && tabData[0].value);
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
     props.statusHandler(newValue);
   };

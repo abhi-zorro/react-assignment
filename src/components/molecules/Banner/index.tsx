@@ -1,7 +1,6 @@
 import { Grid } from "@mui/material";
 
 import Tp from "../../Atoms/Typography/index";
-// import Poster from "./exploreposter.png";
 
 import Poster from "./exploreposter.png";
 

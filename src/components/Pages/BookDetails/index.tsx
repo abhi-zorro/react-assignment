@@ -91,6 +91,26 @@ const BookDetails = () => {
     }
   };
 
+  const bookHandler = () => {
+    if (book.currentlyReading) {
+      return (
+        <Button
+          data-testid="status-handler"
+          children="Finished Reading"
+          size="medium"
+          variant="contained"
+          color="success"
+          onClick={() => {
+            libraryStatusHandler(false, true, "Read again");
+          }}
+          sx={{ margin: `0 ${theme.spacing(4)} 0 0`, fontFamily: "Cera" }}
+        />
+      );
+    } else {
+      return "";
+    }
+  };
+
   return !book ? (
     <Container
       sx={{
@@ -204,21 +224,7 @@ const BookDetails = () => {
               color="success"
               sx={{ margin: `0 ${theme.spacing(4)} 0 0`, fontFamily: "Cera" }}
             />
-            {book.currentlyReading ? (
-              <Button
-                data-testid="status-handler"
-                children="Finished Reading"
-                size="medium"
-                variant="contained"
-                color="success"
-                onClick={(event) => {
-                  libraryStatusHandler(false, true, "Read again");
-                }}
-                sx={{ margin: `0 ${theme.spacing(4)} 0 0`, fontFamily: "Cera" }}
-              />
-            ) : (
-              ""
-            )}
+            {bookHandler()}
             <Button
               children="Send to Kindle"
               size="medium"
