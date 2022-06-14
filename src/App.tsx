@@ -29,6 +29,36 @@ function App() {
 
   console.log("isAuthenticated: " + isAuthenticated);
 
+  const showExplore = () => {
+    if (exploreOption) {
+      if (isAuthenticated) {
+        return (
+          <Explorer
+            handleExploreMenu={handleExploreMenu}
+            exploreOption={exploreOption}
+          />
+        );
+      } else {
+        return "";
+      }
+    }
+  };
+
+  const showBlank = () => {
+    if (blankStatus) {
+      if (isAuthenticated) {
+        return (
+          <Blank
+            handleExploreMenu={handleExploreMenu}
+            exploreOption={exploreOption}
+          />
+        );
+      } else {
+        return "";
+      }
+    }
+  };
+
   useEffect(() => {
     axios.get(`http://localhost:3000/books`).then((res) => {
       const books1 = res.data;
@@ -83,24 +113,10 @@ function App() {
             <Route path="/" element={<Home />} />
           </Routes>
           <Footer />
-          {exploreOption && isAuthenticated ? (
-            <Explorer
-              handleExploreMenu={handleExploreMenu}
-              exploreOption={exploreOption}
-            />
-          ) : (
-            ""
-          )}
+          {showExplore()}
         </Box>
       </Router>
-      {blankStatus && isAuthenticated ? (
-        <Blank
-          handleExploreMenu={handleExploreMenu}
-          exploreOption={exploreOption}
-        />
-      ) : (
-        ""
-      )}
+      {showBlank()}
     </Box>
   );
 }
