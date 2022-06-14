@@ -27,17 +27,6 @@ import {
 import { NavLink } from "react-router-dom";
 import theme from "../../Theme";
 
-const ExplorerStyles = (theme: {
-  breakpoints: { down: (arg0: string) => any };
-}) => ({
-  [theme.breakpoints.down("sm")]: {
-    topic: {
-      fontSize: "14px",
-      width: "100vw",
-    },
-  },
-});
-
 const ExplorerStyle = {
   topicText: {
     fontWeight: 700,

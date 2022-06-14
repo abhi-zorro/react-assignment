@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import Typography from "../../Atoms/Typography/index";
 import Image from "../../Atoms/Image";
 
-const LogoComponent = ({ height = 33, url, name, ...props }: any) => {
+const LogoComponent = ({ height = 33, url, name }: any) => {
   return (
     <Box
       sx={{
