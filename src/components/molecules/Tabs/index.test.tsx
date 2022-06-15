@@ -1,10 +1,6 @@
 import React from "react";
 import { fireEvent, render, screen } from "@testing-library/react";
 import Tabs from ".";
-import tabTheme from "../../Theme";
-import { ThemeProvider } from "@mui/material/styles";
-import { BrowserRouter } from "react-router-dom";
-
 const tabData = [
   {
     value: "category",
@@ -25,27 +21,7 @@ describe("Just tabs", () => {
 
 describe("Tab renderer", () => {
   test("it should render the 2 tabs for 2 length data", () => {
-    render(
-      //   <BrowserRouter>
-      // <ThemeProvider theme={tabTheme}>
-      <Tabs tabData={tabData} />
-      // </ThemeProvider>
-      //   </BrowserRouter>
-    );
+    render(<Tabs tabData={tabData} />);
     expect(screen.getAllByTestId(/tabTest-/).length).toBe(2);
   });
-});
-
-const mockCallback = jest.fn();
-
-it("this should have green indicator color for currently reading tab by default", () => {
-  render(
-    <BrowserRouter>
-      <ThemeProvider theme={tabTheme}>
-        <Tabs tabData={tabData} stateHandler={mockCallback} />
-      </ThemeProvider>
-    </BrowserRouter>
-  );
-  const tabsElement = screen.getByTestId("tabTest-recent");
-  fireEvent.click(tabsElement);
 });

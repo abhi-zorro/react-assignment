@@ -44,7 +44,7 @@ const FooterComponent = () => {
         }}
       >
         <Container sx={{ display: "flex", justifyContent: "start" }}>
-          <Box sx={{ marginRight: "150px" }}>
+          <Box sx={{ marginRight: "150px" }} data-testid="topics">
             <Logo height={100} url={url} />
             <Typography
               variant="h6"
@@ -63,7 +63,6 @@ const FooterComponent = () => {
                   sx={{
                     margin: "0px 32px",
                   }}
-                  data-testid="topics"
                 >
                   <Typography
                     pb={2}

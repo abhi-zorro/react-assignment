@@ -1,7 +1,7 @@
 organization=abhi-zorro
 projectKey=abhi-zorro_react-assignment
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.29668
+serverVersion=8.0.0.29715
 dashboardUrl=https://sonarcloud.io/dashboard?id=abhi-zorro_react-assignment
-ceTaskId=AYFlt3VhqlbwQE9F0oRH
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYFlt3VhqlbwQE9F0oRH
+ceTaskId=AYFnPCc_dvrpnHazShjy
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYFnPCc_dvrpnHazShjy

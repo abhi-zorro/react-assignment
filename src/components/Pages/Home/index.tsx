@@ -25,7 +25,7 @@ const HomePage = () => {
             Tobias Balling and has 18 million users as of 2021.
           </Typography>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={4} sx={{ marginBottom: "150px" }}>
           <Image
             src={url}
             sx={{

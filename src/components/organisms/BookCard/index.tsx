@@ -98,6 +98,7 @@ const BookCard = (props: any) => {
   return (
     <ThemeProvider theme={theme}>
       <Paper
+        data-testid="card"
         elevation={1}
         style={CardStyles.parent}
         onMouseEnter={hoverStateHandler}

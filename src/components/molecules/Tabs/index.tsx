@@ -19,7 +19,7 @@ export default function TabsWrappedLabel({ tabData, ...props }: any) {
           {tabData.map((currTab: any) => {
             return (
               <Tab
-                data-testid={`tabTest-${currTab.label}`}
+                data-testid={`tabTest-${currTab.value}`}
                 value={currTab.value}
                 label={currTab.label}
                 key={currTab.value}

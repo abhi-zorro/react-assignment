@@ -184,7 +184,7 @@ const ExploreComponent = (props: any) => {
                   color: "#6D787E",
                 }}
               >
-                <NavIcon {...currData} />
+                <NavIcon {...currData} data-testid="navexplorer-icon" />
               </NavLink>
             </Box>
           );

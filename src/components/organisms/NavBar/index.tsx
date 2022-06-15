@@ -98,7 +98,7 @@ const HeaderComponent = (props: any) => {
             </Box>
             <Box sx={{ flexGrow: 0.5 }}>
               <div style={{ alignItems: "center", display: "flex" }}>
-                <Button onClick={handleOpenUserMenu}>
+                <Button onClick={handleOpenUserMenu} data-testid="avatar-btn">
                   {!isAuthenticated ? (
                     <AvatarComp />
                   ) : (

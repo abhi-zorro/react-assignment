@@ -11,6 +11,8 @@ module.exports = {
         '!src/**/*.d.ts',
         '!src/stories/*.tsx',
         '!src/serviceWorker.ts',
+        '!src/App.tsx',
+        '!src/reportWebVitals.ts',
         '!src/setupTests.ts',
         '!src/index.tsx',
     ],
@@ -34,7 +36,8 @@ module.exports = {
     moduleNameMapper: {
         '^react-native$': 'react-native-web',
         '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
-        'src/(.*)$': '<rootDir>/src/$1',
+        "src/(.*)$": "<rootDir>/src/$1",
+        "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/mocks/fileMock.js"
     },
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
 };

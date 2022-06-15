@@ -1,4 +1,5 @@
-import createTheme from "@mui/material/styles/createTheme";
+// import createTheme from "@mui/material/styles/createTheme";
+import { createTheme } from "@mui/material";
 import "../../App.css";
 
 const theme = createTheme({
