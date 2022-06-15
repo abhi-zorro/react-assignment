@@ -6,8 +6,9 @@ const TabsComponent = {
   component: Tabs,
 } as ComponentMeta<typeof Tabs>;
 
+const tabStateHandler = {};
 export const Template: ComponentStory<typeof Tabs> = (args: any) => (
-  <Tabs {...args} />
+  <Tabs {...args} statusHandler={tabStateHandler} />
 );
 
 const tabData = [

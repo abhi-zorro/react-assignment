@@ -6,7 +6,7 @@ import Poster from "./exploreposter.png";
 
 function Banner(): JSX.Element {
   return (
-    <div>
+    <div data-testid="banner1">
       <Grid
         container
         style={{

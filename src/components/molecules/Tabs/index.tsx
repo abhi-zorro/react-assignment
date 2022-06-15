@@ -15,10 +15,11 @@ export default function TabsWrappedLabel({ tabData, ...props }: any) {
   return (
     <Box sx={{ borderBottom: 1, borderColor: "divider", width: "912px" }}>
       <ThemeProvider theme={tabstheme}>
-        <Tabs value={value} onChange={handleChange}>
+        <Tabs value={value} onChange={handleChange} data-testid="tabsTest">
           {tabData.map((currTab: any) => {
             return (
               <Tab
+                data-testid={`tabTest-${currTab.label}`}
                 value={currTab.value}
                 label={currTab.label}
                 key={currTab.value}

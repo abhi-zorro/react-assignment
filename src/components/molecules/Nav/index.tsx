@@ -11,6 +11,7 @@ const NavIcon = (props: any) => {
 
   return (
     <Box
+      data-testid="nav"
       sx={{
         display: "flex",
         alignItems: "center",

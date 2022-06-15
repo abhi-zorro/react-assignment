@@ -79,7 +79,7 @@ const SearchComponent = (props: any) => {
                 style={{ textDecoration: "none", color: "black" }}
               >
                 <ListItem
-                  key={value.id}
+                  key={`${value.id}`}
                   sx={{ display: "flex" }}
                   data-testid="result"
                 >
